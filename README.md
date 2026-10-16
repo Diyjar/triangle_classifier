@@ -39,14 +39,14 @@ Every angle in an equilateral triangle is 60°, so none can be 90°. Algebraical
 
 ## Acceptance Criteria
 
-1. Input given when asked length of sides are checked to ensure they are not zeros, negative, or a size which cannot produce a triangle, if they are, will return an "Invalid" message without crashing.
+1. Input given when asked for the length of sides are checked to ensure they are not zero, negative, or a size that cannot produce a triangle, if they are, it will return an "Invalid" message without crashing.
 
-2. Input which isn't invalid, will return either "Equilateral", "Isosceles", or "Scalene" based on spec table, unless input forms right triangle, which will produce either "Right Isosceles" or "Right Scalene" based on spec table.
+2. Input that isn't invalid will return either "Equilateral", "Isosceles", or "Scalene" based on spec table, unless input forms right triangle, which will produce either "Right Isosceles" or "Right Scalene" based on spec table.
 
 ## AI-Use Disclosure
 
 | Tool | What I used it for | What I verified |
 |---|---|---|
 | Claude | Building triangle.py | Ensured that both methods were written to spec, caught and fixed a bug in degenerate check|
-| GitHub Co-pilot | Drafting test_triangle.py | Drafted tests cases for each spec, reviewed all cases against spec table and edited test_invalid_degenerate |
-| Claude | Writing README sections "How To Test" and "Why An equilateral Triangle Can't Be Right" | Ensured that testing steps worked, as well as equilateral triangle explanation was accurate. |
+| GitHub Co-pilot | Drafting test_triangle.py | Drafted test cases for each spec, reviewed all cases against spec table and edited test_invalid_degenerate |
+| Claude | Writing README sections "How To Test", "Why An equilateral Triangle Can't Be Right", and Equivalence Classes and Boundaries | Ensured that testing steps worked, equivalence and boundaries were correct, as well as the equilateral triangle explanation was accurate. |
