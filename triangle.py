@@ -2,14 +2,14 @@
 
 import math
 
-
+#checks if triangle size is valid
 def is_valid_triangle(a, b, c) -> bool:
     if a <= 0 or b <= 0 or c <= 0:
         return False
     x, y, z = sorted((a, b, c))
-    return x + y > z  # strict: x + y == z is degenerate
+    return x + y > z and not math.isclose(x + y, z) # strict: x + y == z is degenerate
 
-
+#determines the type of triangle based on its sides
 def classify_triangle(a, b, c) -> str:
     if not is_valid_triangle(a, b, c):
         return "Invalid"

@@ -1,6 +1,7 @@
 import math
 from triangle import classify_triangle
 
+#test cases for triangle classification
 def test_equilateral():
     assert classify_triangle(3, 3, 3) == "Equilateral"
 
@@ -24,6 +25,7 @@ def test_invalid_zero_side():
 
 def test_invalid_degenerate():
     assert classify_triangle(1, 2, 3) == "Invalid"
+    assert classify_triangle(0.1, 0.2, 0.3) == "Invalid"
 
 def test_invalid_inequality_failure():
     assert classify_triangle(1, 2, 4) == "Invalid"
