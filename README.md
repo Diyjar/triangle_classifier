@@ -6,7 +6,7 @@
 ## Equivalence Classes and Boundaries
 
 | Class | Example Input | Expected Response |
-|---|---|---|---|
+|---|---|---|
 | All sides equal | (3, 3, 3) | Equilateral |
 | All sides different | (4, 5, 6) | Scalene |
 | Exactly two sides equal | (5, 5, 3) | Isosceles |
