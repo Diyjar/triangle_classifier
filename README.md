@@ -1,7 +1,7 @@
 ## How To Run Tests
 
-1. Install Python 3, then from the project folder run 'python -m pip install -r requirements.txt'
-2. Run all tests: 'python -m pytest -v'
+1. Install Python 3, then from the project folder run `python -m pip install -r requirements.txt`
+2. Run all tests: `python -m pytest -v`
 
 ## Equivalence Classes and Boundaries
 
@@ -49,4 +49,4 @@ Every angle in an equilateral triangle is 60°, so none can be 90°. Algebraical
 |---|---|---|
 | Claude | Building triangle.py | Ensured that both methods were written to spec, caught and fixed a bug in degenerate check|
 | GitHub Co-pilot | Drafting test_triangle.py | Drafted test cases for each spec, reviewed all cases against spec table and edited test_invalid_degenerate |
-| Claude | Writing README sections "How To Test", "Why An equilateral Triangle Can't Be Right", and Equivalence Classes and Boundaries | Ensured that testing steps worked, equivalence and boundaries were correct, as well as the equilateral triangle explanation was accurate. |
+| Claude | Writing README sections "How To Test", "Why an Equilateral Triangle Can't Be Right", and "Equivalence Classes and Boundaries" | Ensured that testing steps worked, equivalence and boundaries were correct, as well as the equilateral triangle explanation was accurate. |
